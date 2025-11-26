@@ -32,8 +32,8 @@ button2{background:radial-gradient(green,yellow);
          border-radius: 10px;}
       p{text-indent: 2em;}
       .zoom:hover{transform: scale(1.5); cursor:pointer;}
-      img:hover{animation: glowcolors 1.2 infinite alternate;}
-@keyframes glowcolor
+      img:hover{animation: glowcolors 1.2s infinite alternate;}
+@keyframes glowcolors
 {
   0%{box-shadow: 0 0 20px hotpink;}
   25%{box-shadow: 0 0 20px skyblue;}
@@ -44,7 +44,7 @@ button2{background:radial-gradient(green,yellow);
   .blink-bg
       {animation:blinking 1s infinite alternate;
        padding:3px 6px;}
-      @keyframes blinkbg
+      @keyframes blinking
       {
   0%{background:yellow;}
   100%{background:orange;;}
