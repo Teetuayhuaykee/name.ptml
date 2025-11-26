@@ -32,7 +32,7 @@ button2{background:radial-gradient(green,yellow);
          border-radius: 10px;}
       p{text-indent: 2em;}
       .zoom:hover{transform: scale(1.5); cursor:pointer;}
-      img:hover{animation: glowcolors 1.2 infinite alternative;}
+      img:hover{animation: glowcolors 1.2 infinite alternate;}
 @keyframes glowcolor
 {
   0%{box-shadow: 0 0 20px hotpink;}
@@ -40,7 +40,15 @@ button2{background:radial-gradient(green,yellow);
   50%{box-shadow: 0 0 20px gold;}
   75%{box-shadow: 0 0 20px darkviolet;}
   100%{box-shadow: 0 0 20px red;}
-      
+}
+  .blink-bg
+      {animation:blinking 1s infinite alternate;
+       padding:3px 6px;}
+      @keyframes blinkbg
+      {
+  0%{background:yellow;}
+  100%{background:orange;;}
+      }   
     </style>    
   </head>
 
